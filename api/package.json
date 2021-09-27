@@ -1,11 +1,10 @@
 {
   "name": "hackbuddy-api",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "NODE_ENV=production node server.js",
-    "dev": "NODE_ENV=development nodemon ./src/server.js",
+    "dev": "NODE_ENV=development nodemon server.js",
     "test": "NODE_ENV=testing jest --verbose --runInBand --watch"
   },
   "dependencies": {
@@ -36,10 +35,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codingknite/api-server.git"
+    "url": "git+https://github.com/codingknite/hackbuddy.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://github.com/codingknite/api-server#readme"
+  "homepage": "https://github.com/codingknite/hackbuddy#readme",
+  "license": "MIT"
 }
