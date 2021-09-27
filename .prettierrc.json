@@ -1,0 +1,12 @@
+{
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "endOfLine": "lf",
+  "curly": 0,
+  "max-len": 0,
+  "no-confusing-arrow": 0,
+  "no-mixed-operators": 0
+}
