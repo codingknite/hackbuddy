@@ -34,7 +34,7 @@ const updateReply = (Model) => async (req, res, next) => {
       { uniqueID },
       {
         ...body,
-      }
+      },
     )
       .lean()
       .exec();
